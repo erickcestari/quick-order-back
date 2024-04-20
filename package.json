@@ -17,6 +17,7 @@
     "dev": "nest start --debug --watch",
     "build": "nest build",
     "start": "node dist/main",
+    "start:prod": "nest build && node dist/main",
     "check": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
