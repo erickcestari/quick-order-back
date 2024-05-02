@@ -12,6 +12,7 @@
     "npm": "10.2.4"
   },
   "scripts": {
+    "deploy": "vercel --prod",
     "init": "pnpm run docker:init ; pnpm env:init ; pnpm run database:migration:run",
     "env:init": "sh ./scripts/env.sh",
     "dev": "nest start --debug --watch",

@@ -14,6 +14,7 @@ import { OperatorApplicationModule } from './operator/application'
 import { ProductionActivityApplicationModule } from './productionActivity/application'
 
 import { AiApplicationModule } from './ai/application/ai.application.module'
+import { DefectApplicationModule } from './defect/application/defect.application.module'
 import { NotificationApplicationModule } from './notification/application/notification.application.module'
 import { UploadApplicationModule } from './upload/application/upload.application.module'
 
@@ -25,7 +26,7 @@ import { UploadApplicationModule } from './upload/application/upload.application
     NotificationApplicationModule,
     AiApplicationModule,
     UploadApplicationModule,
-
+    DefectApplicationModule,
     OrderApplicationModule,
 
     ProductApplicationModule,
