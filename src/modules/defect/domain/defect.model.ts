@@ -17,6 +17,9 @@ export class Defect {
   id: string
 
   @Column({})
+  description: string
+
+  @Column({})
   status: string
 
   @Column({})

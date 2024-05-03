@@ -6,6 +6,9 @@ export class DefectCreateDto {
   status: string
 
   @IsString()
+  descrtiption: string
+
+  @IsString()
   productId: string
 
   @IsString()
@@ -25,6 +28,9 @@ export class DefectUpdateDto {
   @IsString()
   @IsOptional()
   status?: string
+
+  @IsString()
+  descrtiption: string
 
   @IsString()
   productId: string
