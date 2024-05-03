@@ -6,7 +6,7 @@ export class DefectCreateDto {
   status: string
 
   @IsString()
-  descrtiption: string
+  description: string
 
   @IsString()
   productId: string
@@ -30,7 +30,7 @@ export class DefectUpdateDto {
   status?: string
 
   @IsString()
-  descrtiption: string
+  description: string
 
   @IsString()
   productId: string
